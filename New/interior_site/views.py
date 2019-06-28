@@ -1,9 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from Content.models import HmDesignImg
 
 # Create your views here.
 def index(request):
-    return render(request,'index.html')
+    hm_design_img = HmDesignImg.objects.all()
+    return render(request,'index.html', {"hm_design_img" : hm_design_img})
 
 def  about(request):
     return render(request,'about.html')
