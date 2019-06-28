@@ -2,9 +2,200 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2fcacf5-aff8-4fee-894b-4a6ed95a844d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/bootstrap/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/bootstrap/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/css/mixins/_text-hide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/jquery.timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/open-iconic-bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/font/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/font/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/font/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/font/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/font/_flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/font/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/font/flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/flaticon/license/license.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/ionicons/css/_ionicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/ionicons/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/ionicons/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/ionicons/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/ionicons/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/ionicons/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/ionicons/fonts/ionicons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/open-iconic/open-iconic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/open-iconic/open-iconic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/open-iconic/open-iconic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/open-iconic/open-iconic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/fonts/open-iconic/open-iconic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/bg_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/image_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/image_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/image_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/image_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/image_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/staff-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/staff-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/staff-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/staff-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/images/work-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/jquery-migrate-3.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/jquery.animateNumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/js/scrollax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/prepros-6.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/static/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/prepros-6.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/templates/team.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interior_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/interior_site/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +208,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Content/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="442">
               <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -29,8 +220,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interior_site/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="340">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#637#669#0" expanded="true" />
               </folding>
@@ -38,37 +229,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Content/templates/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interior_site/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+            <state relative-caret-position="396">
+              <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Content/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -102,7 +272,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Content/templates/Home.html" />
-        <option value="$PROJECT_DIR$/interior_site/settings.py" />
         <option value="$PROJECT_DIR$/Content/templates/index.html" />
         <option value="$PROJECT_DIR$/Content/urls.py" />
         <option value="$PROJECT_DIR$/Content/templates/about.html" />
@@ -110,6 +279,7 @@
         <option value="$PROJECT_DIR$/Content/views.py" />
         <option value="$PROJECT_DIR$/interior_site/urls.py" />
         <option value="$PROJECT_DIR$/Content/templates/Theme bar.html" />
+        <option value="$PROJECT_DIR$/interior_site/settings.py" />
       </list>
     </option>
   </component>
@@ -125,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,18 +310,13 @@
             <path>
               <item name="New" type="b2602c69:ProjectViewProjectNode" />
               <item name="New" type="462c0819:PsiDirectoryNode" />
-              <item name="Content" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="New" type="b2602c69:ProjectViewProjectNode" />
-              <item name="New" type="462c0819:PsiDirectoryNode" />
               <item name="interior_site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,20 +354,20 @@
       <option name="presentableId" value="Default" />
       <updated>1561088685861</updated>
       <workItem from="1561702934801" duration="756000" />
+      <workItem from="1561703701977" duration="2055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="756000" />
+    <option name="totallyTimeSpent" value="2811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13337801" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1347185" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2036775" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32962137" />
@@ -215,11 +379,13 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,20 +415,10 @@
     <entry file="file://D:/Program Files/Python/Lib/threading.py" />
     <entry file="file://$PROJECT_DIR$/Content/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="442">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interior_site/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#637#669#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -271,6 +427,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -284,20 +450,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interior_site/settings.py">
+    <entry file="file://$PROJECT_DIR$/interior_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/static/prepros-6.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#84#93#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-8533" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interior_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
         </state>
       </provider>
     </entry>
