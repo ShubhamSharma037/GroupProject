@@ -153,25 +153,29 @@
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
           </div>
         </div>
+
         <div class="row ftco-animate">
           <div class="col-md-12">
             <div class="carousel-testimony owl-carousel">
+            {% for j in cst_feed %}
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url({% static 'images/person_1.jpg)">
+                  <div class="user-img mb-5" style="background-image: url({{j.cst_img}})">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="mb-5 pl-4 line">{{ j.cst_feed_msg }}</p>
                     <div class="pl-5">
-	                    <p class="name">Garreth Smith</p>
-	                    <span class="position">CEO Founder of Commercial Building</span>
+	                    <p class="name">{{ j.cst_name }}</p>
+	                    <span class="position">{{ j.wrk_at_as }}</span>
                     </div>
                   </div>
                 </div>
               </div>
+                {% endfor %}
+           <!--
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
                   <div class="user-img mb-5" style="background-image: url({% static 'images/person_2.jpg)">
@@ -239,6 +243,10 @@
             </div>
           </div>
         </div>
+        -->
+            </div>
+          </div>
+      </div>
       </div>
     </section>
 

@@ -11,7 +11,8 @@ def index(request):
     return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "tm_mem": tm_mem, "cl_logo": cl_logo})
 
 def  about(request):
-    return render(request,'about.html')
+    cst_feed = CstmrFeed.objects.all()
+    return render(request,'about.html', {"cst_feed": cst_feed})
 
 def project(request):
    return render(request,'project.html')
