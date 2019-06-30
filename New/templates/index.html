@@ -506,10 +506,10 @@
 								<div class="faded">
 									<p>{{ i.mem_about }}</p>
 									<ul class="ftco-social d-flex">
-		                <li class="ftco-animate"><a href="{{ i.mem_tweet }}"><span class="icon-twitter"></span></a></li>
-		                <li class="ftco-animate"><a href="{{ i.mem_facebook }}"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="{{ i.mem_googlep }}"><span class="icon-google-plus"></span></a></li>
-		                <li class="ftco-animate"><a href="{{ i.mem_insta }}"><span class="icon-instagram"></span></a></li>
+		                <li class="ftco-animate"><a href="{{ i.mem_tweet }}" rel="noopener noreferrer" target="_blank"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="{{ i.mem_facebook }}" rel="noopener noreferrer" target="_blank"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="{{ i.mem_googlep }}" rel="noopener noreferrer" target="_blank"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="{{ i.mem_insta }}" rel="noopener noreferrer" target="_blank"><span class="icon-instagram"></span></a></li>
 		              </ul>
 	              </div>
 							</div>
@@ -658,7 +658,7 @@
             <div class="carousel-client owl-carousel">
 			  {% for i in cl_logo %}
               <div class="item">
-                <a href="{{ i.client_link }}" class="client text-center p-5">
+                <a href="{{ i.client_link }}" rel="noopener noreferrer" target="_blank" class="client text-center p-5">
                 	<img src="{{ i.client_logo_link }}" />
                 </a>
               </div>

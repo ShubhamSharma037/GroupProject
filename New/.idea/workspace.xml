@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2fcacf5-aff8-4fee-894b-4a6ed95a844d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Content/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Content/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interior_site/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/interior_site/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="696" column="16" lean-forward="true" selection-start-line="696" selection-start-column="16" selection-end-line="696" selection-end-column="16" />
+            <state relative-caret-position="305">
+              <caret line="511" column="118" selection-start-line="511" selection-start-column="118" selection-end-line="511" selection-end-column="118" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -84,7 +81,6 @@
                 <element signature="e#15258#18877#0" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#20433#23868#0" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#25502#28302#0" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
@@ -221,12 +217,12 @@
       <workItem from="1561702934801" duration="756000" />
       <workItem from="1561703701977" duration="2055000" />
       <workItem from="1561707633772" duration="5983000" />
-      <workItem from="1561882549592" duration="5938000" />
+      <workItem from="1561882549592" duration="6197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14732000" />
+    <option name="totallyTimeSpent" value="14991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -353,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="696" column="16" lean-forward="true" selection-start-line="696" selection-start-column="16" selection-end-line="696" selection-end-column="16" />
+        <state relative-caret-position="305">
+          <caret line="511" column="118" selection-start-line="511" selection-start-column="118" selection-end-line="511" selection-end-column="118" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -364,7 +360,6 @@
             <element signature="e#15258#18877#0" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#20433#23868#0" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#25502#28302#0" />
             <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
