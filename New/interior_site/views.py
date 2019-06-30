@@ -15,7 +15,8 @@ def  about(request):
     return render(request,'about.html', {"cst_feed": cst_feed})
 
 def project(request):
-   return render(request,'project.html')
+    hm_design_img = HmDesignImg.objects.all()
+    return render(request,'project.html', {"hm_design_img": hm_design_img})
 
 def services(request):
     return render(request,'services.html')
