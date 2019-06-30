@@ -40,3 +40,13 @@ class TeamMembers(models.Model):
         verbose_name = 'Team Member'
         verbose_name_plural = 'Team Members'
 
+
+#Team Members
+class ClientsNLinks(models.Model):
+    client_logo_link = models.CharField(max_length=2000, blank=False, default='https://ebaqdesign.com/wp-content/uploads/2018/04/your-logo-registered.png')
+    client_link = models.CharField(max_length=2000, blank=False, default='https://goole.com/')
+
+    class Meta:
+        verbose_name = 'Client'
+        verbose_name_plural = 'Clients'
+

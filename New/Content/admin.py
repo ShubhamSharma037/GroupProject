@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import HmDesignImg, CstmrFeed, TeamMembers
+from .models import HmDesignImg, CstmrFeed, TeamMembers, ClientsNLinks
 
 # Register your models here.
 
@@ -16,6 +16,11 @@ class TeamMembersAdmin(admin.ModelAdmin):
     list_display = ('mem_name', 'mem_post')
 
 
+class ClientsNLinksAdmin(admin.ModelAdmin):
+    list_display = ['client_link']
+
+
 admin.site.register(HmDesignImg, HmDesignImgAdmin)
 admin.site.register(CstmrFeed, CstmrFeedAdmin)
 admin.site.register(TeamMembers, TeamMembersAdmin)
+admin.site.register(ClientsNLinks, ClientsNLinksAdmin)

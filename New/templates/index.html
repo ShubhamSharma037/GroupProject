@@ -656,12 +656,14 @@
         <div class="row ftco-animate">
           <div class="col-md-12">
             <div class="carousel-client owl-carousel">
+			  {% for i in cl_logo %}
               <div class="item">
-                <a href="#" class="client text-center p-5">
-                	CLient Logo 1
+                <a href="{{ i.client_link }}" class="client text-center p-5">
+                	<img src="{{ i.client_logo_link }}" />
                 </a>
               </div>
-              <div class="item">
+			  {% endfor %}
+              <!--<div class="item">
                 <a href="#" class="client text-center p-5">
                 	CLient Logo 2
                 </a>
@@ -690,7 +692,7 @@
               	<a href="#" class="client text-center p-5">
                 	CLient Logo 7
                 </a>
-              </div>
+              </div>-->
             </div>
           </div>
         </div>
