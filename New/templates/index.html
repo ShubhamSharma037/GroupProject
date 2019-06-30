@@ -496,25 +496,27 @@
           </div>
         </div>	
 				<div class="row">
+					{% for i in tm_mem %}
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
-							<div class="img" style="background-image: url({% static 'images/team-1.jpg' %});"></div>
+							<div class="img" style="background-image: url({{ i.mem_img }});"></div>
 							<div class="text px-4 pt-4">
-								<h3>John Wilson</h3>
-								<span class="position mb-2">Co-Founder / CEO</span>
+								<h3>{{ i.mem_name }}</h3>
+								<span class="position mb-2">{{ i.mem_post }}</span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>{{ i.mem_about }}</p>
 									<ul class="ftco-social d-flex">
-		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                <li class="ftco-animate"><a href="{{ i.mem_tweet }}"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="{{ i.mem_facebook }}"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="{{ i.mem_googlep }}"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="{{ i.mem_insta }}"><span class="icon-instagram"></span></a></li>
 		              </ul>
 	              </div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-3 ftco-animate">
+					{% endfor %}
+					<!--<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img" style="background-image: url({% static 'images/team-2.jpg' %});"></div>
 							<div class="text px-4 pt-4">
@@ -567,7 +569,7 @@
 	              </div>
 							</div>
 						</div>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</section>

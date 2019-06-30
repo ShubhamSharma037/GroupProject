@@ -1,12 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from Content.models import HmDesignImg, CstmrFeed
+from Content.models import HmDesignImg, CstmrFeed, TeamMembers
 
 # Create your views here.
 def index(request):
     hm_design_img = HmDesignImg.objects.all()
     cst_feed = CstmrFeed.objects.all()
-    return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed})
+    tm_mem = TeamMembers.objects.all()
+    return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "tm_mem": tm_mem})
 
 def  about(request):
     return render(request,'about.html')
