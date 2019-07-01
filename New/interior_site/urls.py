@@ -30,7 +30,7 @@ urlpatterns = [
     path('blog/',views.blog),
     path('contact/',views.contact),
     path('blog-single/',views.blogS),
-    path('contact2/',views.contact2)
+
 
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
