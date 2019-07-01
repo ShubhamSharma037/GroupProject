@@ -22,7 +22,9 @@ def services(request):
     return render(request,'services.html')
 
 def team(request):
-    return render(request,'team.html')
+    tm_mem = TeamMembers.objects.all()
+    hm_design_img = HmDesignImg.objects.all()
+    return render(request,'team.html', {"hm_design_img": hm_design_img, "tm_mem": tm_mem})
 
 def blog(request):
     return render(request,'blog.html')
