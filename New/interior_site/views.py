@@ -1,9 +1,6 @@
 from django.shortcuts import render
-
-from Content.models import HmDesignImg, CstmrFeed, TeamMembers, ClientsNLinks, BlogPage
-
 from django.http import HttpResponse
-from Content.models import HmDesignImg, CstmrFeed, TeamMembers, ClientsNLinks
+from Content.models import HmDesignImg, CstmrFeed, TeamMembers, ClientsNLinks, BlogPage
 from Content.forms import ContactForm
 
 
@@ -15,8 +12,8 @@ def index(request):
     cst_feed = CstmrFeed.objects.all()
     tm_mem = TeamMembers.objects.all()
     cl_logo = ClientsNLinks.objects.all()
-    blogs=BlogPage.objects.all()
-    return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "tm_mem": tm_mem, "cl_logo": cl_logo,"blogs":blogs})
+    blogs = BlogPage.objects.all()
+    return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "tm_mem": tm_mem, "cl_logo": cl_logo, "blogs": blogs})
 
 
 def about(request):
@@ -53,8 +50,8 @@ def contact(request):
     return render(request,'contact.html', {"form": form})
 
 
-def blogS(request):
-    return render(request,'blog-single.html')
+# def blogS(request):
+#     return render(request,'blog-single.html')
 
 
 def selecet_blog(request,topic):

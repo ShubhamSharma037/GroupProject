@@ -53,11 +53,11 @@ class ClientsNLinks(models.Model):
 
 #Blogs
 class BlogPage(models.Model):
-    blg_topic=models.CharField(max_length=50,null=False)
-    blg_desc=models.TextField(max_length=10000,null=False)
-    blg_pic=models.CharField(max_length=2000)
-    blg_date=models.DateField( default=datetime.date.today)
-    blg_name_blgger=models.CharField(max_length=20,null=False)
+    blg_topic=models.CharField(max_length=50,null=False, verbose_name="Blog Name")
+    blg_desc=models.TextField(max_length=10000,null=False, verbose_name="Blog Content")
+    blg_pic=models.CharField(max_length=2000, verbose_name="Blog Image")
+    blg_date=models.DateField( default=datetime.date.today, verbose_name="Blog Date")
+    blg_name_blgger=models.CharField(max_length=20,null=False, verbose_name="Blogger Name")
 
 
     class Meta:
