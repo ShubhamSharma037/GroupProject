@@ -29,6 +29,7 @@ urlpatterns = [
     path('team/',views.team),
     path('blog/',views.blog),
     path('contact/',views.contact),
+    path('test1/',views.contact),
     path('blog-single/',views.blogS),
 
 

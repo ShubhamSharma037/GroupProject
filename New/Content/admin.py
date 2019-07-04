@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import HmDesignImg, CstmrFeed, TeamMembers, ClientsNLinks
+from .models import HmDesignImg, CstmrFeed, TeamMembers, ClientsNLinks, ContactFormModel
 
 # Register your models here.
 
@@ -20,7 +20,12 @@ class ClientsNLinksAdmin(admin.ModelAdmin):
     list_display = ['client_link']
 
 
+class ContactFormModelAdmin(admin.ModelAdmin):
+    list_display = ('vw_name', 'vw_email', 'vw_subject')
+
+
 admin.site.register(HmDesignImg, HmDesignImgAdmin)
 admin.site.register(CstmrFeed, CstmrFeedAdmin)
 admin.site.register(TeamMembers, TeamMembersAdmin)
 admin.site.register(ClientsNLinks, ClientsNLinksAdmin)
+admin.site.register(ContactFormModel, ContactFormModelAdmin)
