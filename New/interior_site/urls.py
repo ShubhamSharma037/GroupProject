@@ -28,6 +28,7 @@ urlpatterns = [
     path('services/',views.services),
     path('team/',views.team),
     path('blog/',views.blog),
+    path('blog-single/<str:topic>',views.selecet_blog),
     path('contact/',views.contact),
     path('test1/',views.contact),
     path('blog-single/',views.blogS),

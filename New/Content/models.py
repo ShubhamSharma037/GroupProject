@@ -1,5 +1,5 @@
 from django.db import models
-
+import datetime
 # Create your models here.
 
 #Home Page Designs Images
@@ -51,6 +51,20 @@ class ClientsNLinks(models.Model):
         verbose_name_plural = 'Clients'
 
 
+#Blogs
+class BlogPage(models.Model):
+    blg_topic=models.CharField(max_length=50,null=False)
+    blg_desc=models.TextField(max_length=10000,null=False)
+    blg_pic=models.CharField(max_length=2000)
+    blg_date=models.DateField( default=datetime.date.today)
+    blg_name_blgger=models.CharField(max_length=20,null=False)
+
+
+    class Meta:
+        verbose_name='BlogUpdate'
+        verbose_name_plural='BlogUpdates'
+
+
 #Contact Form
 class ContactFormModel(models.Model):
     vw_name = models.CharField(max_length=30, verbose_name="Viewer Name")
@@ -61,4 +75,5 @@ class ContactFormModel(models.Model):
     class Meta:
         verbose_name = 'Viewer Contact Detail'
         verbose_name_plural = 'Viewer Contact Details'
+
 

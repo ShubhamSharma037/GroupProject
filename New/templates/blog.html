@@ -69,22 +69,27 @@
           <div class="col-lg-8">
           	<div class="row">
           		<div class="col-md-6 ftco-animate">
+                    {% for i in blg_page %}
 		            <div class="blog-entry">
-		              <a href="../blog-single" class="block-20" style="background-image:url({% static 'images//image_1.jpg' %});">
+		              <a href="../blog-single/{{i.blg_topic}}" class="block-20" style="background-image:url({{ i.blg_pic }});">
 		              </a>
 		              <div class="text d-flex py-4">
 		                <div class="meta mb-3">
-		                  <div><a href="#">Jan. 20, 2019</a></div>
-		                  <div><a href="#">Admin</a></div>
-		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+		                  <div><a href="#">{{i.blg_date}}</a></div>
+		                  <div><a href="#">{{i.blg_name_blgger}}</a></div>
+<!--		                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>-->
 		                </div>
 		                <div class="desc pl-3">
-			                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-			              </div>
+<!--			                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>-->
+                                <h3 class="heading"><a href="../blog-single/{{i.blg_topic}}">{{i.blg_topic}}</a></h3>
+                        </div>
 		              </div>
 		            </div>
-		          </div>
-		          <div class="col-md-6 ftco-animate">
+                    {% endfor %}
+                </div>
+
+
+		          <!--<div class="col-md-6 ftco-animate">
 		            <div class="blog-entry" data-aos-delay="100">
 		              <a href="../blog-single" class="block-20" style="background-image:url({% static 'images//image_2.jpg' %});">
 		              </a>
@@ -163,7 +168,7 @@
 			              </div>
 		              </div>
 		            </div>
-		          </div>
+		          </div>-->
           	</div>
           	<div class="row no-gutters my-5">
 		          <div class="col text-center">
@@ -196,17 +201,18 @@
             <div class="sidebar-box ftco-animate">
               <h3>Popular Articles</h3>
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url({% static 'images//image_1.jpg' %});"></a>
+                   {% for i in blg_page %}
+                <a class="blog-img mr-4" style="background-image: url({{i.blg_pic}});"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <h3 class="heading"><a href="../blog-single/{{i.blg_topic}}">{{i.blg_topic}}</a></h3>
                   <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Oct. 04, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Dave Lewis</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                    <div><a href="#"><span class="icon-calendar"></span> {{i.blg_date}}</a></div>
+                    <div><a href="#"><span class="icon-person"></span> {{i.blg_name_blgger}}</a></div>
                   </div>
                 </div>
+                  {% endfor %}
               </div>
-              <div class="block-21 mb-4 d-flex">
+              <!--<div class="block-21 mb-4 d-flex">
                 <a class="blog-img mr-4" style="background-image: url({% static 'images//image_2.jpg' %});"></a>
                 <div class="text">
                   <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -229,7 +235,7 @@
                 </div>
               </div>
             </div>
-
+-->
             <div class="sidebar-box ftco-animate">
               <h3>Tag Cloud</h3>
               <ul class="tagcloud m-0 p-0">
@@ -243,14 +249,14 @@
               </ul>
             </div>
 
-            <div class="sidebar-box ftco-animate">
+            <!--<div class="sidebar-box ftco-animate">
             	<h3>Archives</h3>
               <ul class="categories">
               	<li><a href="#">December 2018 <span>(30)</span></a></li>
               	<li><a href="#">Novemmber 2018 <span>(20)</span></a></li>
                 <li><a href="#">September 2018 <span>(6)</span></a></li>
                 <li><a href="#">August 2018 <span>(8)</span></a></li>
-              </ul>
+              </ul>-
             </div>
 
 
@@ -261,7 +267,9 @@
           </div><!-- END COL -->
         </div>
 			</div>
-		</section>
+                </div>
+            </div>
+        </section>
     
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">

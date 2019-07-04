@@ -586,25 +586,26 @@
 	          	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
           	</div>
           </div>
-        </div>	
-				<div class="row">
+        </div>
+		<div class="row">
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="../blog-single" class="block-20" style="background-image: url('{% static 'images/image_1.jpg' %}');">
+				{% for i in blogs %}
+              <a href="../blog-single/{{i.blg_topic}}" class="block-20" style="background-image: url('{{i.blg_pic}}');">
               </a>
               <div class="text d-flex py-4">
                 <div class="meta mb-3">
-                  <div><a href="#">Jan. 20, 2019</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <div>{{ i.blg_date }}</div>
+                  <div>{{ i.blg_name_blgger}}</div>
+                  <div class="desc pl-3">
+	                <h3 class="heading"><a href="../blog-single/{{i.blg_topic}}">{{ i.blg_topic }}</a></h3>
 	              </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
+				{% endfor %}
+			</div>
+
+          <!--<div class="col-md-4 ftco-animate">
             <div class="blog-entry" data-aos-delay="100">
               <a href="../blog-single" class="block-20" style="background-image: url('{% static 'images/image_2.jpg' %}');">
               </a>
@@ -634,7 +635,7 @@
 	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
 	              </div>
               </div>
-            </div>
+            </div>-->
           </div>
         </div>
 			</div>
