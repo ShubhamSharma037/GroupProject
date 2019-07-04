@@ -18,27 +18,27 @@ def index(request):
 
 def about(request):
     cst_feed = CstmrFeed.objects.all()
-    return render(request,'about.html', {"cst_feed": cst_feed})
+    return render(request, 'about.html', {"cst_feed": cst_feed})
 
 
 def project(request):
     hm_design_img = HmDesignImg.objects.all()
-    return render(request,'project.html', {"hm_design_img": hm_design_img})
+    return render(request, 'project.html', {"hm_design_img": hm_design_img})
 
 
 def services(request):
-    return render(request,'services.html')
+    return render(request, 'services.html')
 
 
 def team(request):
     tm_mem = TeamMembers.objects.all()
     hm_design_img = HmDesignImg.objects.all()
-    return render(request,'team.html', {"hm_design_img": hm_design_img, "tm_mem": tm_mem})
+    return render(request, 'team.html', {"hm_design_img": hm_design_img, "tm_mem": tm_mem})
 
 
 def blog(request):
-    blg_page=BlogPage.objects.all()
-    return render(request,'blog.html',{"blg_page":blg_page})
+    blg_page = BlogPage.objects.all()
+    return render(request, 'blog.html', {"blg_page": blg_page})
 
 
 def contact(request):
@@ -54,10 +54,10 @@ def contact(request):
 #     return render(request,'blog-single.html')
 
 
-def selecet_blog(request,topic):
-    blog=BlogPage.objects.filter(blg_topic=topic).values()
-    side_blogs=BlogPage.objects.exclude(blg_topic=topic)
+def selecet_blog(request, topic):
+    blog = BlogPage.objects.filter(blg_topic=topic).values()
+    side_blogs = BlogPage.objects.exclude(blg_topic=topic)
 
-    return render(request,'blog-single.html', {"blog": blog,"side_blg":side_blogs})
+    return render(request, 'blog-single.html', {"blog": blog, "side_blg": side_blogs})
 
 
