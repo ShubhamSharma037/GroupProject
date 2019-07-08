@@ -10,7 +10,7 @@ class HmDesignImgAdmin(admin.ModelAdmin):
 
 
 class CstmrFeedAdmin(admin.ModelAdmin):
-    list_display = ('cst_name', 'wrk_at_as')
+    list_display = ['cst_name']
 
 
 class TeamMembersAdmin(admin.ModelAdmin):

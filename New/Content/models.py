@@ -16,9 +16,9 @@ class HmDesignImg(models.Model):
 #Customer Feedback
 class CstmrFeed(models.Model):
     cst_name = models.CharField(max_length = 30, verbose_name="Customer Name")
-    cst_feed_msg = models.CharField(max_length = 120, verbose_name="Feedback Message")
-    wrk_at_as = models.CharField(max_length = 40, verbose_name="Work At/As")
-    cst_img = models.CharField(max_length=2000, verbose_name="Customer Image")
+    cst_feed_msg = models.TextField(max_length = 1000, verbose_name="Feedback Message")
+    #wrk_at_as = models.CharField(max_length = 40, verbose_name="Work At/As")
+    #cst_img = models.CharField(max_length=2000, verbose_name="Customer Image")
 
     class Meta:
         verbose_name = 'Customer Feedback'
