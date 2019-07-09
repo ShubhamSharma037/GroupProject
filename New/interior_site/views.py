@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from Content.models import HmDesignImg, CstmrFeed, TeamMembers, ClientsNLinks, BlogPage
 from Content.forms import ContactForm
+from django.core.mail import send_mail, BadHeaderError
 
 
 # Create your views here.
@@ -46,8 +47,19 @@ def contact(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
+            subject = form.cleaned_data['vw_subject']
+            from_email = form.cleaned_data['vw_email']
+            message = form.cleaned_data['vw_msg']
+            try:
+                send_mail(subject, message, from_email, ['frovi.ga@gmail.com'])
+                print("passed")
+            except BadHeaderError:
+                print("errrrororororo")
+                return HttpResponse('Invalid header found.')
     form = ContactForm()
     return render(request,'contact.html', {"form": form})
+
+
 
 
 # def blogS(request):
