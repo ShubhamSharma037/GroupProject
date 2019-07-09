@@ -8833,9 +8833,10 @@ h1, h2, h3, h4, h5,
 textarea.form-control {
   height: inherit !important; }
 
-.ftco-animate {
+.ftco-animate: hover {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+   }
 
 .bg-primary {
   background: #0033c7 !important; }
@@ -8960,8 +8961,8 @@ textarea.form-control {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
-    .ftco-footer-social li a:hover {
-      color: #fff; }
+    .ftco-footer-social li a :hover {
+      color: #0000FF; }
 
 .footer-small-nav > li {
   display: inline-block; }
@@ -9612,3 +9613,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.fa: hover {
+  color: blue;
+}

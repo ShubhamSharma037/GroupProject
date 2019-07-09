@@ -56,8 +56,8 @@ def contact(request):
 
 def selecet_blog(request, topic):
     blog = BlogPage.objects.filter(blg_topic=topic).values()
-    side_blogs = BlogPage.objects.exclude(blg_topic=topic)
+    side_blg = BlogPage.objects.exclude(blg_topic=topic)
 
-    return render(request, 'blog-single.html', {"blog": blog, "side_blg": side_blogs})
+    return render(request, 'blog-single.html', {"blog": blog, "side_blg": side_blg})
 
 
