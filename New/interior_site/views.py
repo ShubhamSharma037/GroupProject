@@ -51,7 +51,7 @@ def contact(request):
             from_email = form.cleaned_data['vw_email']
             message = form.cleaned_data['vw_msg']
             try:
-                send_mail(subject, message, from_email, ['frovi.ga@gmail.com'])
+                send_mail(subject, message, from_email, ['admin@admin.com'])
                 print("passed")
             except BadHeaderError:
                 print("errrrororororo")
