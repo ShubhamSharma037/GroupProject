@@ -247,10 +247,10 @@
 								el.addClass('fadeInUp ftco-animated');
 							}
 							el.removeClass('item-animate');
-						},  k * 50, 'easeInOutExpo' );
+						},  k * 0, 'easeInOutExpo' );
 					});
 					
-				}, 100);
+				}, 0);
 				
 			}
 
