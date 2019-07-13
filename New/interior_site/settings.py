@@ -143,3 +143,5 @@ EMAIL_HOST_USER = 'Mailgun Smtp Host Username'
 EMAIL_HOST_PASSWORD = 'Mailgun Smtp Host User Pass'
 
 
+MEDIA_ROOT= os.path.join(BASE_DIR, 'media'),'/var/www/media/'
+MEDIA_URL= '/media/'

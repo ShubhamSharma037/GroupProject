@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from Content.models import HmDesignImg, CstmrFeed, TeamMembers, ClientsNLinks, BlogPage
+from Content.models import HmDesignImg, CstmrFeed, BlogPage, PrjImg
 from Content.forms import ContactForm
 from django.core.mail import send_mail, BadHeaderError
 
@@ -11,10 +11,10 @@ from django.core.mail import send_mail, BadHeaderError
 def index(request):
     hm_design_img = HmDesignImg.objects.all()
     cst_feed = CstmrFeed.objects.all()
-    tm_mem = TeamMembers.objects.all()
-    cl_logo = ClientsNLinks.objects.all()
+   # tm_mem = TeamMembers.objects.all()
+    #cl_logo = ClientsNLinks.objects.all()
     blogs = BlogPage.objects.all()
-    return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "tm_mem": tm_mem, "cl_logo": cl_logo, "blogs": blogs})
+    return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "blogs": blogs})
 
 
 def about(request):
@@ -23,8 +23,8 @@ def about(request):
 
 
 def project(request):
-    hm_design_img = HmDesignImg.objects.all()
-    return render(request, 'project.html', {"hm_design_img": hm_design_img})
+    prj_img = PrjImg.objects.all()
+    return render(request, 'project.html', {"prj_img": prj_img})
 
 
 def services(request):
@@ -32,9 +32,9 @@ def services(request):
 
 
 def team(request):
-    tm_mem = TeamMembers.objects.all()
+
     hm_design_img = HmDesignImg.objects.all()
-    return render(request, 'team.html', {"hm_design_img": hm_design_img, "tm_mem": tm_mem})
+    return render(request, 'team.html', {"hm_design_img": hm_design_img})
 
 
 def blog(request):
@@ -51,7 +51,7 @@ def contact(request):
             from_email = form.cleaned_data['vw_email']
             message = form.cleaned_data['vw_msg']
             try:
-                send_mail(subject, message, from_email, ['admin@admin.com'])
+                send_mail(subject, message, from_email, ['kriti.goel1988@gmail.com'])
                 print("passed")
             except BadHeaderError:
                 print("errrrororororo")

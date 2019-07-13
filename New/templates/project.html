@@ -61,8 +61,7 @@
         </div>
       </div>
     </section>
-		
-		<section class="ftco-section">
+      <section class="ftco-section ftco-no-pb">
     	<div class="container">
     		<div class="row justify-content-start mb-5 pb-2">
           <div class="col-md-4 heading-section ftco-animate">
@@ -84,10 +83,10 @@
     	</div>
     	<div class="container-wrap">
     		<div class="row no-gutters">
-    			{% for i in hm_design_img %}
-    			<div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="col-md-6 col-lg-3 ftco-animate">
+    			{% for i in prj_img %}
     				<div class="project">
-	    				<img src="{{ i.design_img_link }}" width="400" height="379.5" alt="Colorlib Template" >
+	    				<img src="{{ i.design_img_link }}" width="400" height="379.5" alt="colorlib Template" >
 	    				<div class="text">
 	    					<span>{{ i.design_type }}</span>
 	    					<h3><a href="../project">{{ i.design_name }}</a></h3>
@@ -233,15 +232,13 @@
 
     			</div>-->
 
-		
+
     		</div>
 
- 
-
-    		<div class="row no-gutters mt-5">
+            <div class="row no-gutters mt-5">
           <div class="col text-center">
             <div class="block-27">
-            
+
               <ul>
                 <li><a href="#">&lt;</a></li>
                 <li class="active" ><span>1</span></li>
@@ -251,7 +248,7 @@
                 <li ><a href="#">5</a></li>
                 <li ><a href="#">&gt;</a></li>
               </ul>
-          
+
             </div>
           </div>
         </div>
