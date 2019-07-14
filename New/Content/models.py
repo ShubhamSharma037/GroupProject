@@ -5,8 +5,10 @@ import datetime
 #Home Page Designs Images
 class HmDesignImg(models.Model):
     design_name = models.CharField(max_length = 30, verbose_name="Design Name")
-    design_type = models.CharField(max_length = 20, verbose_name="Design Type(Interior/Exterior)")
-    design_img_link = models.CharField(max_length = 2000, verbose_name="Image Link")
+    design_type = models.CharField(max_length = 10, verbose_name="Design Type", choices=(
+                                                                 ('interior', 'Interior'),
+                                                                 ('exterior', 'Exterior')))
+    design_img_link = models.CharField(max_length=2000,verbose_name="Image Link", blank=False)
 
     class Meta:
         verbose_name = 'Home Page Designs Image'
@@ -15,8 +17,10 @@ class HmDesignImg(models.Model):
 #Project Page Design Images
 class PrjImg(models.Model):
     design_name = models.CharField(max_length=30, verbose_name="Design Name")
-    design_type = models.CharField(max_length=20, verbose_name="Design Type(Interior/Exterior)")
-    design_img_link = models.CharField(max_length=2000, verbose_name="Image Link")
+    design_type = models.CharField(max_length=10, verbose_name="Design Type", choices=(
+                                                                 ('interior', 'Interior'),
+                                                                 ('exterior', 'Exterior')))
+    design_img_link = models.ImageField(verbose_name="Image Link", blank=False)
 
     class Meta:
         verbose_name = 'Project Page Designs Image'
@@ -65,7 +69,7 @@ class CstmrFeed(models.Model):
 class BlogPage(models.Model):
     blg_topic=models.CharField(max_length=50,null=False, verbose_name="Blog Name")
     blg_desc=models.TextField(max_length=10000,null=False, verbose_name="Blog Content")
-    blg_pic=models.CharField(max_length=2000, verbose_name="Blog Image")
+    blg_pic=models.ImageField( verbose_name="Blog Image", blank=False)
     blg_date=models.DateField( default=datetime.date.today, verbose_name="Blog Date")
     blg_name_blgger=models.CharField(max_length=20,null=False, verbose_name="Blogger Name")
 

@@ -31,12 +31,6 @@ def services(request):
     return render(request, 'services.html')
 
 
-def team(request):
-
-    hm_design_img = HmDesignImg.objects.all()
-    return render(request, 'team.html', {"hm_design_img": hm_design_img})
-
-
 def blog(request):
     blg_page = BlogPage.objects.all()
     return render(request, 'blog.html', {"blg_page": blg_page})

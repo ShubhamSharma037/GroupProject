@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import HmDesignImg, CstmrFeed, ContactFormModel, BlogPage, PrjImg
 
 
-# Register your models here.
+
 
 
 class HmDesignImgAdmin(admin.ModelAdmin):
@@ -35,10 +35,14 @@ class ContactFormModelAdmin(admin.ModelAdmin):
     list_display = ('vw_name', 'vw_email', 'vw_subject')
     readonly_fields=['vw_name','vw_email','vw_subject','vw_msg']
 
-
+# Register your models here.
 admin.site.register(HmDesignImg, HmDesignImgAdmin)
 admin.site.register(PrjImg, PrjDesignImgAdmin)
 admin.site.register(CstmrFeed, CstmrFeedAdmin)
 admin.site.register(BlogPage, BlogPageAdmin)
 admin.site.register(ContactFormModel, ContactFormModelAdmin)
 
+#admin title changes
+admin.site.site_header = "DpdzineS"
+admin.site.site_title = "DpdzineS Admin Panel"
+admin.site.index_title = "Admin Panel"
