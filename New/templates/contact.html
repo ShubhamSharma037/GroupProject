@@ -55,10 +55,10 @@
                         {% if messages %}
                         <ul class="messages">
                             {% for message in messages %}
-                            {% block usr %}
-                            <h2 class = "mb-4"> <li  {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li></h2>
-                            <h1 class = "mb-4">
-                                Name: {{usr.vw_name}}</p>
+                                {% block usr %}
+
+                                        <p style="color:black;font-size:28px;"> {{ message }} <p/>
+
                                 {% endblock %}
                             {% endfor %}
                         </ul>

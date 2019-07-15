@@ -4,6 +4,7 @@ from Content.models import HmDesignImg, CstmrFeed, BlogPage, PrjImg
 from Content.forms import ContactForm
 from django.core.mail import send_mail, BadHeaderError
 from django.contrib import messages
+import os
 
 
 # Create your views here.
@@ -47,7 +48,11 @@ def contact(request):
             from_email = form.cleaned_data['vw_email']
             message = form.cleaned_data['vw_msg']
            # success=True
-            messages.success(request, 'Form submission successful')
+            messages.success(request, "FORM SUBMISSION SUCCESSFUL", )
+            messages.success(request, f" > From: {from_email}")
+            messages.success(request, f" > To: kriti.goel1988@gmail.com")
+            messages.success(request, f" > Subject: {subject}")
+            messages.success(request, f" > Message: {message}")
             try:
                 send_mail(subject, message, from_email, ['kriti.goel1988@gmail.com'])
                 #print("passed")
