@@ -9,7 +9,6 @@
                 <li class="nav-item "><a href="../about" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="../project" class="nav-link">Project</a></li>
                 <li class="nav-item"><a href="../services" class="nav-link">Services</a></li>
-                
                 <li class="nav-item"><a href="../blog" class="nav-link">Blog</a></li>
                 <li class="nav-item active"><a href="../contact" class="nav-link">Contact</a></li>
             </ul>
@@ -53,6 +52,17 @@
 			<div class="container-wrap">
 				<div class="row d-flex align-items-stretch no-gutters">
 					<div class="col-md-6 p-5 order-md-last">
+                        {% if messages %}
+                        <ul class="messages">
+                            {% for message in messages %}
+                            {% block usr %}
+                            <h2 class = "mb-4"> <li  {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li></h2>
+                            <h1 class = "mb-4">
+                                Name: {{usr.vw_name}}</p>
+                                {% endblock %}
+                            {% endfor %}
+                        </ul>
+                        {% else %}
                         <form method="post">
                             {% csrf_token %}
 
@@ -73,6 +83,9 @@
                             </div>
                             <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
                         </form>
+                        {% endif %}
+                    </div>
+
                         <!--<form action="#">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Your Name">
@@ -91,7 +104,7 @@
                                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
                             </div>
                         </form>-->
-					</div>
+
 					<div class="col-md-6 d-flex align-items-stretch">
 						<div id="map"></div>
 					</div>

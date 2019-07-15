@@ -48,15 +48,15 @@
     	</div>
     	<div class="container-wrap">
     		<div class="row no-gutters">
+                {% for i in prj_img %}
                 <div class="col-md-6 col-lg-3 ftco-animate">
-    			{% for i in prj_img %}
     				<div class="project">
-	    				<img src="{{ i.design_img_link }}" width="400" height="379.5" alt="colorlib Template" >
+	    				<img src="{{ i.design_img_link.url }}" width="400" height="379.5" alt="colorlib Template" >
 	    				<div class="text">
 	    					<span>{{ i.design_type }}</span>
 	    					<h3><a href="../project">{{ i.design_name }}</a></h3>
 	    				</div>
-	    				<a href="{{ i.design_img_link }}" class="icon image-popup d-flex justify-content-center align-items-center">
+	    				<a href="{{ i.design_img_link.url }}" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
 	    				</a>
     				</div>

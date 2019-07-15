@@ -129,18 +129,17 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # EMAIL_HOST = 'localhost'
 # EMAIL_PORT = '1025'
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.mailgun.org'
-EMAIL_PORT = '587'
-EMAIL_HOST_USER = 'Mailgun Smtp Host Username'
-EMAIL_HOST_PASSWORD = 'Mailgun Smtp Host User Pass'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.mailgun.org'
+# EMAIL_PORT = '587'
+# EMAIL_HOST_USER = 'Mailgun Smtp Host Username'
+# EMAIL_HOST_PASSWORD = 'Mailgun Smtp Host User Pass'
 
 
 MEDIA_ROOT= os.path.join(BASE_DIR, 'media')

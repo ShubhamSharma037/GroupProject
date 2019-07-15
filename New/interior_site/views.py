@@ -1,8 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from Content.models import HmDesignImg, CstmrFeed, BlogPage, PrjImg
 from Content.forms import ContactForm
 from django.core.mail import send_mail, BadHeaderError
+from django.contrib import messages
 
 
 # Create your views here.
@@ -39,19 +40,23 @@ def blog(request):
 def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
+        #success=False
         if form.is_valid():
             form.save()
             subject = form.cleaned_data['vw_subject']
             from_email = form.cleaned_data['vw_email']
             message = form.cleaned_data['vw_msg']
+           # success=True
+            messages.success(request, 'Form submission successful')
             try:
                 send_mail(subject, message, from_email, ['kriti.goel1988@gmail.com'])
-                print("passed")
+                #print("passed")
             except BadHeaderError:
-                print("errrrororororo")
+                #print("error")
+                messages.error(request,'Form is not submitted.''Please try again.')
                 return HttpResponse('Invalid header found.')
     form = ContactForm()
-    return render(request,'contact.html', {"form": form})
+    return render(request, 'contact.html', {"form": form})
 
 
 
