@@ -41,23 +41,24 @@ def blog(request):
 def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
-        #success=False
         if form.is_valid():
             form.save()
             subject = form.cleaned_data['vw_subject']
             from_email = form.cleaned_data['vw_email']
             message = form.cleaned_data['vw_msg']
+            name = form.cleaned_data['vw_name']
            # success=True
-            messages.success(request, "FORM SUBMISSION SUCCESSFUL", )
-            messages.success(request, f" > From: {from_email}")
-            messages.success(request, f" > To: kriti.goel1988@gmail.com")
-            messages.success(request, f" > Subject: {subject}")
-            messages.success(request, f" > Message: {message}")
+            messages.success(request, "Thanks for contacting us.")
+            messages.success(request, "We will respond you soon.")
+            messages.success(request, "Entered details are: " )
+            messages.success(request, f"  From: {name}")
+            messages.success(request, f"  Subject: {subject}")
+            messages.success(request, f"  Message: {message}")
             try:
                 send_mail(subject, message, from_email, ['kriti.goel1988@gmail.com'])
-                #print("passed")
+
             except BadHeaderError:
-                #print("error")
+
                 messages.error(request,'Form is not submitted.''Please try again.')
                 return HttpResponse('Invalid header found.')
     form = ContactForm()

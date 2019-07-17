@@ -17,9 +17,16 @@ class HmDesignImg(models.Model):
 #Project Page Design Images
 class PrjImg(models.Model):
     design_name = models.CharField(max_length=30, verbose_name="Design Name")
-    design_type = models.CharField(max_length=10, verbose_name="Design Type", choices=(
-                                                                 ('interior', 'Interior'),
-                                                                 ('exterior', 'Exterior')))
+    design_type = models.CharField(max_length=30, verbose_name="Design Type", choices=(
+                                                                 ('Bed Room','Bed Room'),
+                                                                 ('Drawing Room','Drawing Room'),
+                                                                 ('Kids Room','Kids Room'),
+                                                                 ('Ceiling', 'Ceiling'),
+                                                                 ('Wardrobe','Wardrobe'),
+                                                                 ('Kitchen','Kitchen'),
+                                                                 ('Living Room','Living Room'),
+                                                                 ('Dining Room','Dining Room')
+                                                                 ))
     design_img_link = models.ImageField(verbose_name="Image Link", blank=False)
 
     class Meta:

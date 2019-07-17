@@ -50,39 +50,40 @@
     </section>
 		<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
 			<div class="container-wrap">
-				<div class="row d-flex align-items-stretch no-gutters">
-					<div class="col-md-6 p-5 order-md-last">
+				<div class="row d-flex align-items-stretch no-gutters ">
+					<div class="col-md-6 p-5 order-md-last ">
                         {% if messages %}
-                        <ul class="messages">
+
+                        <ul class="messages alert alert-success ">
                             {% for message in messages %}
-                                {% block usr %}
-
-                                        <p style="color:black;font-size:28px;"> {{ message }} <p/>
-
-                                {% endblock %}
+                                <p style="color:grey;font-size:28px;font-family:Times New Roman;">
+                                <i> {{ message }}</i> <p/>
                             {% endfor %}
                         </ul>
+
                         {% else %}
-                        <form method="post">
-                            {% csrf_token %}
+                        <div class="alert alert-info">
+                            <form method="post">
+                                {% csrf_token %}
 
-                            <div class="form-group">
-                                {{ form.vw_name }}
-                            </div>
+                                <div class="form-group ">
+                                    {{ form.vw_name }}
+                                </div>
 
-                            <div class="form-group">
-                                {{ form.vw_email }}
-                            </div>
+                                <div class="form-group">
+                                    {{ form.vw_email }}
+                                </div>
 
-                            <div class="form-group">
-                                {{ form.vw_subject }}
-                            </div>
+                                <div class="form-group">
+                                    {{ form.vw_subject }}
+                                </div>
 
-                            <div class="form-group">
-                                {{ form.vw_msg }}
-                            </div>
-                            <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-                        </form>
+                                <div class="form-group ">
+                                    {{ form.vw_msg }}
+                                </div>
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </form>
+                        </div>
                         {% endif %}
                     </div>
 

@@ -2,8 +2,231 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b5c13a-8656-4441-b0cd-126a7ae2140a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Content/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interior_site/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/interior_site/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/d_room_1_copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/d_room_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/daughter_1_bedroom_v_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/daughter_1_bedroom_v_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/daughter_2__bedroom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/daughter_2_bedroom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/master_bedroom_v_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/master_bedroom_v_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/master_broom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/presntation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/son_bedroom_v-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/son_bedroom_v-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/son_bedroom_v-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/son_bedroom_v-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FIRST FLOOR/son_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/False ceiling/master_bed_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Final/Amber_Room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Final/Amber_Room1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Final/Deepanshu_Room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Final/Entry_Lobby.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Final/M_Bedroom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Final/M_Bedroom_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/DINNING.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/DINNING_CEILING.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/DINNING_ov_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/ENTRY_CEILING.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/ENTRY_CEILING_OP1_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/ENTRY_LOBBY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/ENTRY_LOBBY_op1_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/FURNITURE_LAYOUT-Model.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/HALL_FLOOR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/LIVING_ROOM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/LIVING_ROOM_CEILING.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/LIVING_ROOM_OV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/LIVING__CEILING.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/OFFICE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/OFFICE_op_2_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/dining.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/entry_l_ceiling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/entyr_lobby.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/guest_room_1_ceiling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/guest_room_2_ceiling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/hall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/hall_ceiling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/office_ceiling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/office_ov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/office_ov_op2_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/rear_lobby_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/rear_lobby_ceiling.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/GROUND FLOOR/rear_lobby_ov_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/04-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Akash Rajendra nagar/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/FF_dinning.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/FF_drawing_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/FF_living_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/groundfloor_guestroom_view01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/groundfloor_guestroom_view02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/guestroom_view01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/guestroom_view02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/kids_room_view01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/kids_room_view02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/masterbedroom2_view011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/masterbedroom2_view02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/masterbedroom_view01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Daga Assam/masterbedroom_view02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/DINNING_Opt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/HALL-V_2.1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/LIVING-ROOM-ov-op2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/OFFICE-op-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/another_view.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/door_Cam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/en_door.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/front_ele.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Mr. Welly Itanagar/lobby.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Parents room/Parents_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Parents room/Parents_room1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Parents room/Parents_room_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Parents room/re_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Projects_Done/IMG_20150516_135307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Projects_Done/IMG_20150522_175633.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Projects_Done/IMG_20150522_175700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Projects_Done/IMG_20150522_175749.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Reference files/space_n_ceiling_layout_M_bed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Reference files/space_n_ceiling_plan_K_bed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Revised View/Kids_room_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Revised View/Master_bedroom_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Revised View/Master_bedroom_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Revised View/Master_bedroom_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Revised View/Parents_room_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150830_164232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150830_164241.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150830_164248.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150830_164256.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150830_164304.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150830_165151.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150830_165245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150910_111558.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150910_111614.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150910_112045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150910_210446.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150910_210455.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150911_153401.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150913_185413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150913_185525.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150914_193241.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150914_193252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150916_162826.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150917_081548.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150917_081608.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150917_081629.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150918_135022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150918_135034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150918_135052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150926_122950.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150926_123026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150926_123101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vaishali/IMG_20150926_123116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/amber room/amber_entry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/amber room/amber_sitting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/amber room/d_r_v_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/amber room/room-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/amber room/room-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/amber room/room-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/amber room/room-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/amber room/room-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/boy room/Son1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/boy room/view_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/boy room/view_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/1234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/d.room-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/latest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/pooja_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/puja_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/drawing room/render.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/Daughter_purple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/Daughter_purple2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/Revised_Kids.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/gg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/kids.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/kids1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/purple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/kids room/re_room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/master bed room/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/master bed room/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/master bed room/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/master bedroom/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/master bedroom/Revised_M_bed1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/master bedroom/room_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/master bedroom/room_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/mothers room/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/mothers room/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/outer/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/outer/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/outer/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG-20161012-WA0007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG-20161012-WA0008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG-20161012-WA0009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG-20161012-WA0010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165238.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165501.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165515.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165556.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165625.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165631.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165641.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165655.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165709.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165741.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165753.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165805.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165816.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165820.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_165832.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_171517.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_171525.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_171542.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_171605.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_171620.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_20161005_171626.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_8102.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_8103.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_8104.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_8105.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_8106.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_8107.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/site pics/IMG_8108.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -16,27 +239,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="41" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="e#13642#14049#0" />
-                <element signature="e#14946#19421#0" />
-                <element signature="e#21148#24997#0" />
-                <element signature="e#25078#30633#1" />
-                <element signature="e#32374#34314#0" />
-                <element signature="e#34353#36887#1" />
-              </folding>
+            <state>
+              <caret column="21" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Content/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="242">
               <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -46,28 +260,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4233">
-              <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Content/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+            <state relative-caret-position="702">
+              <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -78,8 +274,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Content/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="432">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -88,21 +284,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interior_site/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Content/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interior_site/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="648">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#637#669#0" expanded="true" />
@@ -114,17 +303,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interior_site/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="3645">
               <caret line="135" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interior_site/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1242">
+              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
+            <state relative-caret-position="1620">
+              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,11 +342,12 @@
         <option value="$PROJECT_DIR$/interior_site/urls.py" />
         <option value="$PROJECT_DIR$/templates/project.html" />
         <option value="$PROJECT_DIR$/static/js/main.js" />
-        <option value="$PROJECT_DIR$/Content/models.py" />
         <option value="$PROJECT_DIR$/Content/admin.py" />
         <option value="$PROJECT_DIR$/interior_site/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/interior_site/views.py" />
         <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/Content/models.py" />
       </list>
     </option>
   </component>
@@ -160,7 +362,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +383,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,9 +448,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12483487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124668434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,7 +460,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3182461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3181818" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -325,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
+        <state relative-caret-position="1890">
           <caret line="70" column="41" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -339,13 +540,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Content/admin.py">
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="6723">
+          <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interior_site/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="9616" selection-start-line="9616" selection-end-line="9616" />
         </state>
       </provider>
     </entry>
@@ -356,17 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4233">
-          <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Content/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+        <state relative-caret-position="702">
+          <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -375,17 +576,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Content/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="432">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Content/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/interior_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="648">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#637#669#0" expanded="true" />
@@ -395,25 +599,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interior_site/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="3645">
           <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interior_site/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1242">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
+        <state relative-caret-position="1620">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Content/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
