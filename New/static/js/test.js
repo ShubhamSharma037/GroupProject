@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     size_li = $("#myList .project").size();
     x=8;
@@ -20,3 +21,4 @@ $(document).ready(function () {
         }
     });
 });
+

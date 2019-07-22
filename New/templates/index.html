@@ -584,11 +584,12 @@
             </div>
         </div>
         <div class="row">
+            {% if blogs %}
             {% for i in blogs %}
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
                     <a href="../blog-single/{{ i.blg_topic }}" class="block-20"
-                       style="background-image: url('{{ i.blg_pic }}');">
+                       style="background-image: url('{{ i.blg_pic.url }}');">
                     </a>
                     <div class="text d-flex py-4">
                         <div class="meta mb-3">
@@ -603,6 +604,9 @@
                 </div>
             </div>
             {% endfor %}
+            {% else %}
+                <img src =" http://www.astons.com.sg/wp-content/uploads/2017/01/Title-ComingSoon.png" alt = " Will be uploaded soon!!">
+            {% endif %}
             <!--<div class="col-md-4 ftco-animate">
                 <div class="blog-entry" data-aos-delay="100">
                     <a href="../blog-single" class="block-20"

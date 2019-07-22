@@ -26,7 +26,6 @@ urlpatterns = [
     path('about/',views.about),
     path('project/',views.project),
     path('services/',views.services),
-
     path('blog/',views.blog),
     path('blog-single/<str:topic>',views.selecet_blog),
     path('contact/',views.contact),
