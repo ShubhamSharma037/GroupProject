@@ -25,9 +25,11 @@ class PrjImg(models.Model):
                                                                  ('Wardrobe','Wardrobe'),
                                                                  ('Kitchen','Kitchen'),
                                                                  ('Living Room','Living Room'),
-                                                                 ('Dining Room','Dining Room')
+                                                                 ('Dining Room','Dining Room'),
                                                                  ))
     design_img_link = models.ImageField(verbose_name="Image Link", blank=False)
+
+
 
     class Meta:
         verbose_name = 'Project Page Designs Image'
@@ -97,5 +99,6 @@ class ContactFormModel(models.Model):
     class Meta:
         verbose_name = 'Visitor  Details'
         verbose_name_plural = 'Visitors Details'
+
 
 

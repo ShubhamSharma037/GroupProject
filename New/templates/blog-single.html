@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block title %}
+
+<title>Blog</title>
+
+{% endblock %}
+
     {% block content %}
     <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
@@ -11,6 +17,11 @@
                
                 <li class="nav-item active"><a href="../blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="../contact" class="nav-link">Contact</a></li>
+                {% if request.user.is_authenticated %}
+					<li class="nav-item "><a href="../logout" class="nav-link">Logout</a></li>
+				{% else %}
+					<li class="nav-item "><a href="../login" class="nav-link">Login</a></li>
+            	{% endif %}
             </ul>
         </div>
     </div>

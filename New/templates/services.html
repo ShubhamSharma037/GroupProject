@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
+{% block title %}
 
+<title>Services</title>
+
+{% endblock %}
 {% block content %}
 <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
@@ -11,6 +15,11 @@
                 
                 <li class="nav-item"><a href="../blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="../contact" class="nav-link">Contact</a></li>
+				{% if request.user.is_authenticated %}
+					<li class="nav-item "><a href="../logout" class="nav-link">Logout</a></li>
+				{% else %}
+					<li class="nav-item "><a href="../login" class="nav-link">Login</a></li>
+            	{% endif %}
             </ul>
         </div>
     </div>
@@ -164,7 +173,7 @@
 	    				<img src="{% static 'images/work-2.jpg' %}" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
 	    					<span>Interior Design</span>
-	    					<h3>Office Interior Design</h3>
+	    					<h3><a href="../project">Office Interior Design</a></h3>
 	    				</div>
 	    				<a href="{% static 'images/work-2.jpg' %}" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
@@ -176,7 +185,7 @@
 	    				<img src="{% static 'images/work-3.jpg' %}" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
 	    					<span>Interior Design</span>
-	    					<h3>Office Interior Design</h3>
+	    					<h3><a href="../project">Office Interior Design</a></h3>
 	    				</div>
 	    				<a href="{% static 'images/work-3.jpg' %}" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
@@ -188,7 +197,7 @@
 	    				<img src="{% static 'images/work-4.jpg' %}" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
 	    					<span>Interior Design</span>
-	    					<h3>Office Interior Design</h3>
+	    					<h3><a href="../project">Office Interior Design</a></h3>
 	    				</div>
 	    				<a href="{% static 'images/work-4.jpg' %}" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>

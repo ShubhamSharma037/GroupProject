@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block title %}
+
+<title>About</title>
+
+{% endblock %}
+
 {% block content %}
   <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
@@ -11,7 +17,12 @@
                 
                 <li class="nav-item"><a href="../blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="../contact" class="nav-link">Contact</a></li>
-            </ul>
+				{% if request.user.is_authenticated %}
+					<li class="nav-item "><a href="../logout" class="nav-link">Logout</a></li>
+				{% else %}
+					<li class="nav-item "><a href="../login" class="nav-link">Login</a></li>
+            	{% endif %}
+			</ul>
         </div>
     </div>
 </nav>
@@ -28,7 +39,7 @@
       </div>
     </section>
 		
-		<section class="ftco-section">
+    <section class="ftco-section">
 			<div class="container">
 				<div class="row no-gutters">
 					<div class="col-md-5 p-md-5 img img-2" style="background-image: url({% static 'images/bg_3.jpg' %});">
@@ -66,10 +77,10 @@
 					</div>
 				</div>
 			</div>
-		</section>
+	</section>
 
 
-		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({% static 'images/bg_3.jpg' %}); data-stellar-background-ratio="0.5">
+	<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({% static 'images/bg_3.jpg' %}); data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row d-md-flex align-items-center justify-content-end">
     			<div class="col-lg-10">
@@ -109,8 +120,8 @@
 	          </div>
           </div>
         </div>
-    	</div>
-    </section>
+		</div>
+	</section>
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
@@ -134,11 +145,10 @@
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5 pl-4 line">{{ j.cst_feed_msg }}</p>
+                    <p class="mb-5 pl-4 line">{{ j.cst_feed }}</p>
                     <div class="pl-5">
 	                    <p class="name">{{ j.cst_name }}</p>
-	                    <span class="position">{{ j.wrk_at_as }}</span>
-                    </div>
+					</div>
                   </div>
                 </div>
               </div>

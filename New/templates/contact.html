@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block title %}
+
+<title>Contact</title>
+
+{% endblock %}
     
     {% block content %}
      <div class="collapse navbar-collapse" id="ftco-nav">
@@ -11,11 +16,19 @@
                 <li class="nav-item"><a href="../services" class="nav-link">Services</a></li>
                 <li class="nav-item"><a href="../blog" class="nav-link">Blog</a></li>
                 <li class="nav-item active"><a href="../contact" class="nav-link">Contact</a></li>
+                {% if request.user.is_authenticated %}
+
+                        <li><a href="../logout"><span class="icon-long-arrow-right mr-2"></span>Logout</a></li>
+
+                        {% else %}
+                        <li><a href="../login"><span class="icon-long-arrow-right mr-2"></span>Login</a></li>
+
+                {% endif %}
             </ul>
         </div>
     </div>
 </nav>
-    <section class="hero-wrap hero-wrap-2" style="background-image:url({% static 'images//bg_1.jpg' %});" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 " style="background-image:url({% static 'images//bg_1.jpg' %});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -26,21 +39,24 @@
         </div>
       </div>
     </section>
-    <section class="ftco-section contact-section bg-light">
+    <section class="ftco-section contact-section bg-light ">
       <div class="container">
         <div class="row d-flex mb-5 contact-info">
           <div class="col-md-12 mb-4">
-            <h2 class="h4">Contact Information</h2>
+            <h1 style="font-family: Times">Contact Information</h1>
           </div>
           <div class="w-100"></div>
-          <div class="col-md-3">
-            <p><span>Address:</span> B-20, Awas Vikas complex, sec-16a, Vasundhara, Gzb. 201012</p>
+          <div class="col-md-6 ">
+            <h3 class="text-primary" style="font-family:Times New Roman"><span>Address:</span> </h3>
+            <p style="font-size:25px; font-family: Garamond" >B-20, Awas Vikas complex, sec-16, Pocket - A, Vasundhara, Gzb. 201012</p>
           </div>
-          <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel://09971322977 , tel://7838080865"> 09971322977 , 783808080865</a> </span></p>
+          <div class=" col-md-4">
+              <h3 class="text-primary" style="font-family:Times New Roman">Phone:</span> </h3>
+              <p style="font-size:25px; font-family: Garamond"><a href="tel://09971322977 , tel://7838080865"> 09971322977 ,&nbsp;&nbsp; 783808080865</a> </span></p>
           </div> 
-          <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:kriti.goel1988@gmail.com">kriti.goel1988@gmail.com</a></p>
+          <div class=" col-md-2">
+              <h3 class="text-primary" style="font-family:Times New Roman">Email:</span></h3>
+              <p style="font-size:25px; font-family: Garamond"><a href="mailto:kriti.goel1988@gmail.com">kriti.goel1988@gmail.com</a></p>
           </div>
         <!--  <div class="col-md-3">
             <p><span>Website</span> <a href="#">yoursite.com</a></p>
@@ -56,13 +72,13 @@
 
                         <ul class="messages alert alert-success ">
                             {% for message in messages %}
-                                <p style="color:grey;font-size:28px;font-family:Times New Roman;">
+                                <p style="color:grey;font-size:30px;font-family:Times New Roman;">
                                 <i> {{ message }}</i> <p/>
                             {% endfor %}
                         </ul>
 
                         {% else %}
-                        <div class="alert alert-info">
+                        <div class="p-3 mb-2 bg-light text-dark">
                             <form method="post">
                                 {% csrf_token %}
 
@@ -107,11 +123,12 @@
                         </form>-->
 
 					<div class="col-md-6 d-flex align-items-stretch">
-						<div id="map"></div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.082778935123!2d77.35764421473316!3d28.6572399824081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfabe60c3de9f%3A0x4918c6d211407144!2sDp+Dzines!5e0!3m2!1sen!2sin!4v1564216690647!5m2!1sen!2sin" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
        </section>
+
 
     {% endblock %}

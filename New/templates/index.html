@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block title %}
+
+<title>Dpdzines</title>
+
+{% endblock %}
 
 {% block content %}
 <div class="collapse navbar-collapse" id="ftco-nav">
@@ -12,6 +17,11 @@
                 
                 <li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+                {% if request.user.is_authenticated %}
+					<li class="nav-item "><a href="../logout" class="nav-link">Logout</a></li>
+				{% else %}
+					<li class="nav-item "><a href="../login" class="nav-link">Login</a></li>
+            	{% endif %}
             </ul>
         </div>
     </div>
@@ -137,7 +147,7 @@
                 <h2 class="mb-4">Our Work Flow</h2>
             </div>
             <div class="col-md-8 pl-md-5 ftco-animate">
-                <div class="pl-md-4 border-line">
+                <div class="pl-md-4 border-line ">
                     <p>Our work flow defines our creativity.<br>Each step is well planned and statisfy our customers.</p>
                 </div>
             </div>
@@ -151,7 +161,7 @@
                     <div class="media-body p-2 mt-3">
                         <h3 class="heading">Perfectly Design</h3>
                         <p>Design is the most important entity in every interior or renovation work. Our team not only makes the design perfect
-                        but also consider the customer's requirements.</p>
+                        but also consider the client's requirements.</p>
                     </div>
                 </div>
             </div>
@@ -162,8 +172,8 @@
                     </div>
                     <div class="media-body p-2 mt-3">
                         <h3 class="heading">Carefully Planned</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
+                        <p>We planned projects steadily and carefully, to make it
+                        happen in the given time and budget.</p>
                     </div>
                 </div>
             </div>
@@ -174,8 +184,8 @@
                     </div>
                     <div class="media-body p-2 mt-3">
                         <h3 class="heading">Smartly Execute</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
+                        <p>We prefer smart execution over traditional ways. This not
+                        only helps in time-saving but also done the work with perfection.</p>
                     </div>
                 </div>
             </div>
@@ -183,8 +193,7 @@
         <div class="row justify-content-start mt-5 py-5">
             <div class="col-md-4 heading-section ftco-animate">
                 <h2 class="mb-4">Our Services</h2>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                    unorthographic.</p>
+                <p class="text-info">We provides following services to our customers.</p>
             </div>
             <div class="col-md-8 ftco-animate">
                 <div class="row d-flex">
@@ -195,8 +204,8 @@
                             </div>
                             <div class="media-body p-2 mt-3">
                                 <h3 class="heading">Design</h3>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                                    unorthographic.</p>
+<!--                                <p class="text-info">Even the all-powerful Pointing has no control about the blind texts it is an almost-->
+<!--                                    unorthographic.</p>-->
                             </div>
                         </div>
                     </div>
@@ -207,8 +216,8 @@
                             </div>
                             <div class="media-body p-2 mt-3">
                                 <h3 class="heading">Industrial Design</h3>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                                    unorthographic.</p>
+<!--                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost-->
+<!--                                    unorthographic.</p>-->
                             </div>
                         </div>
                     </div>
@@ -219,8 +228,8 @@
                             </div>
                             <div class="media-body p-2 mt-3">
                                 <h3 class="heading">Architecture Support</h3>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                                    unorthographic.</p>
+<!--                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost-->
+<!--                                    unorthographic.</p>-->
                             </div>
                         </div>
                     </div>
@@ -231,8 +240,8 @@
                             </div>
                             <div class="media-body p-2 mt-3">
                                 <h3 class="heading">Renovation</h3>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                                    unorthographic.</p>
+<!--                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost-->
+<!--                                    unorthographic.</p>-->
                             </div>
                         </div>
                     </div>
@@ -251,10 +260,10 @@
             </div>
             <div class="col-md-8 pl-md-5 heading-section ftco-animate">
                 <div class="pl-md-4 border-line">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts. Separated they live in. A small river named Duden flows by their place and
-                        supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts
-                        of sentences fly into your mouth.</p>
+<!--                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there-->
+<!--                        live the blind texts. Separated they live in. A small river named Duden flows by their place and-->
+<!--                        supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts-->
+<!--                        of sentences fly into your mouth.</p>-->
                     <!--
                     <p class="category mt-5">
                         <span class="active mr-2"><a href="#">All Work</a></span>
@@ -378,8 +387,8 @@
             <div class="col-md-7 heading-section ftco-animate">
                 <span class="subheading subheading-with-line"><small class="pr-2 bg-light">Testimony</small></span>
                 <h2 class="mb-4">Our satisfied customer says</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts. Separated they live in</p>
+<!--                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live-->
+<!--                    the blind texts. Separated they live in</p>-->
             </div>
         </div>
         <div class="row ftco-animate">
@@ -578,14 +587,16 @@
             </div>
             <div class="col-md-8 pl-md-5 heading-section ftco-animate">
                 <div class="pl-md-4 border-line">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
+<!--                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there-->
+<!--                        live the blind texts.</p>-->
                 </div>
             </div>
         </div>
         <div class="row">
             {% if blogs %}
+
             {% for i in blogs %}
+
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
                     <a href="../blog-single/{{ i.blg_topic }}" class="block-20"
@@ -603,6 +614,8 @@
                     </div>
                 </div>
             </div>
+
+
             {% endfor %}
             {% else %}
                 <img src =" http://www.astons.com.sg/wp-content/uploads/2017/01/Title-ComingSoon.png" alt = " Will be uploaded soon!!">
