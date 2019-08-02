@@ -35,8 +35,9 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg ftco-navbar-light" id="ftco-navbar">
     <div class="container">
+
         <a class="navbar-brand" href="/"><img src="{% static 'images/logo.png' %}" height="50%" width="35%"><br>
 
         </a>
@@ -64,11 +65,7 @@
                 <div class="ftco-footer-widget">
                     <h2 class="ftco-heading-2">DpdzineS</h2>
                     <p>"We are the best Interiors",&nbsp; &nbsp; we don't say this, our clients do.<br>We design, what you Dream.</p>
-                     <!--<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>-->
+
                 </div>
             </div>
 
@@ -76,9 +73,9 @@
                 <div class="col-md-2">
                 <div class="ftco-footer-widget ">
                     <h2 class="ftco-heading-2">Links</h2>
-
+                    {% if request.path == 'index' %}
                     <ul class="list-unstyled">
-                     <!--   <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>   -->
+
                         <li><a href="about"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
                         <li><a href="project"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
                         <li><a href="services"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
@@ -94,20 +91,40 @@
 
                         {% endif %}
                     </ul>
+                    {% else %}
+                        <ul class="list-unstyled">
+
+                        <li><a href="../about"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                        <li><a href="../project"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                        <li><a href="../services"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+
+                        <li><a href="../blog"><span class="icon-long-arrow-right mr-2"></span>Blog</a></li>
+                        <li><a href="../contact"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                        {% if request.user.is_authenticated  %}
+
+                        <li><a href="../logout"><span class="icon-long-arrow-right mr-2"></span>Logout</a></li>
+
+                        {% else %}
+                        <li><a href="../login"><span class="icon-long-arrow-right mr-2"></span>Login</a></li>
+
+                        {% endif %}
+                    </ul>
+                    {% endif %}
                 </div>
         </div>
         </div>
             <div class="row">
             <div class="col-md-12 text-center" >
 
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <p>
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script>
                     All rights reserved
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                   </p>
             </div>
 
     </div>
     </div>
+
 </footer>
 
 
