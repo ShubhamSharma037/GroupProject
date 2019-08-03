@@ -40,38 +40,12 @@ class PrjImg(models.Model):
 class CstmrFeed(models.Model):
     cst_name = models.CharField(max_length = 30, verbose_name="Customer's Name")
     cst_feed = models.TextField(max_length = 1000, verbose_name="Feedback Message")
-    #wrk_at_as = models.CharField(max_length = 40, verbose_name="Work At/As")
-    #cst_img = models.CharField(max_length=2000, verbose_name="Customer Image")
+
 
     class Meta:
         verbose_name = 'Customers Feedback'
         verbose_name_plural = 'Customers Feedback'
 
-
-#Team Members
-# class TeamMembers(models.Model):
-#     mem_name = models.CharField(max_length = 30, verbose_name="Member Name")
-#     mem_about = models.CharField(max_length = 120, verbose_name="About Member")
-#     mem_post = models.CharField(max_length = 40, verbose_name="Member Post/Rank")
-#     mem_img = models.CharField(max_length=2000, verbose_name="Member Image")
-#     mem_tweet = models.CharField(max_length=2000, blank=True, default='https://twitter.com/', verbose_name="Twitter Link")
-#     mem_facebook = models.CharField(max_length=2000, blank=True, default='https://www.facebook.com/', verbose_name="Facebook Link")
-#     mem_googlep = models.CharField(max_length=2000, blank=True, default='https://www.google.com/', verbose_name="Google+ Link")
-#     mem_insta = models.CharField(max_length=2000, blank=True, default='https://www.instagram.com/', verbose_name="Instagram Link")
-#
-#     class Meta:
-#         verbose_name = 'Team Member'
-#         verbose_name_plural = 'Team Members'
-
-
-#Team Members
-# class ClientsNLinks(models.Model):
-#     client_logo_link = models.CharField(max_length=2000, blank=False, default='https://ebaqdesign.com/wp-content/uploads/2018/04/your-logo-registered.png', verbose_name="Client Logo")
-#     client_link = models.CharField(max_length=2000, blank=False, default='https://goole.com/', verbose_name="Client Link")
-#
-#     class Meta:
-#         verbose_name = 'Client'
-#         verbose_name_plural = 'Clients'
 
 
 #Blogs

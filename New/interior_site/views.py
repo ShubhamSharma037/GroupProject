@@ -13,8 +13,6 @@ import os
 def index(request):
     hm_design_img = HmDesignImg.objects.all()
     cst_feed = CstmrFeed.objects.all()
-   # tm_mem = TeamMembers.objects.all()
-    #cl_logo = ClientsNLinks.objects.all()
     blogs = BlogPage.objects.all()
     return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "blogs": blogs})
 
@@ -65,10 +63,6 @@ def contact(request):
     return render(request, 'contact.html', {"form": form})
 
 
-
-
-# def blogS(request):
-#     return render(request,'blog-single.html')
 
 
 def selecet_blog(request, topic):

@@ -31,14 +31,6 @@ class CstmrFeedAdmin(admin.ModelAdmin):
 
 
 
-# class TeamMembersAdmin(admin.ModelAdmin):
-#     list_display = ('mem_name', 'mem_post')
-
-
-# class ClientsNLinksAdmin(admin.ModelAdmin):
-#     list_display = ['client_link']
-
-
 class BlogPageAdmin(admin.ModelAdmin):
     list_display = ('blg_name_blgger', 'blg_topic', 'blg_date')
     list_editable=['blg_topic']
