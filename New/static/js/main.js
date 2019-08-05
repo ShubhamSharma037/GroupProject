@@ -162,6 +162,7 @@
 					st = $w.scrollTop(),
 					navbar = $('.ftco_navbar'),
 					sd = $('.js-scroll-wrap');
+					wid = $(window).width();
 
 			if (st > 150) {
 				if ( !navbar.hasClass('scrolled') ) {
@@ -190,6 +191,24 @@
 				if(sd.length > 0) {
 					sd.removeClass('sleep');
 				}
+			}
+			if ( !navbar.hasClass('scrolled') ) 
+			{
+				console.log(wid)
+				if( wid < 992)
+				{
+					document.getElementById("img").src = 'static/images/logo2.png';
+				}
+				else
+				{
+					document.getElementById("img").src = 'static/images/logo.png';
+				}
+					
+			}
+			if ( navbar.hasClass('scrolled') ) 
+			{
+					document.getElementById("img").src = 'static/images/logo.png';
+					
 			}
 		});
 	};
