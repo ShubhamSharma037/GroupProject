@@ -201,17 +201,17 @@
 				console.log(wid)
 				if( wid < 992)
 				{
-					document.getElementById("img").src = 'static/images/logo2.png';
+					document.getElementById("img").src = '/static/images/logo2.png';
 				}
 				else
 				{
-					document.getElementById("img").src = 'static/images/logo.png';
+					document.getElementById("img").src = '/static/images/logo.png';
 				}
 
 			}
 			if ( navbar.hasClass('scrolled') )
 			{
-					document.getElementById("img").src = 'static/images/logo.png';
+					document.getElementById("img").src = '/static/images/logo.png';
 
 			}
 		});
