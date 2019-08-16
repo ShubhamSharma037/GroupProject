@@ -8,9 +8,9 @@ from .models import HmDesignImg, CstmrFeed, ContactFormModel, BlogPage, PrjImg
 
 
 class HmDesignImgAdmin(admin.ModelAdmin):
-    list_display = ('design_name', 'design_type')
+    list_display = ('design_name', 'design_type', 'design_img_link')
     list_editable = ['design_type']
-    search_fields = ['design_name']
+    search_fields = ['design_name', 'design_name']
     list_filter = ['design_type']
     list_per_page = 10
 
@@ -18,7 +18,7 @@ class HmDesignImgAdmin(admin.ModelAdmin):
 class PrjDesignImgAdmin(admin.ModelAdmin):
     list_display = ('design_name', 'design_type','design_img_link')
     list_editable = ['design_type']
-    search_fields = ['design_name','design_type']
+    search_fields = ['design_img_link','design_type']
     list_filter = ['design_type']
     list_per_page = 10
 
@@ -27,6 +27,9 @@ class PrjDesignImgAdmin(admin.ModelAdmin):
 
 class CstmrFeedAdmin(admin.ModelAdmin):
     list_display = ['cst_name']
+    search_fields = ['cst_name']
+    list_per_page = 5
+
 
 
 
@@ -44,7 +47,7 @@ class ContactFormModelAdmin(admin.ModelAdmin):
     list_display = ('vw_name', 'vw_email', 'vw_subject')
     readonly_fields=['vw_name','vw_email','vw_subject','vw_msg']
     list_filter = ['vw_name', 'vw_subject']
-    search_fields = ['vw_name']
+    search_fields = ['vw_name' 'vw_email', 'vw_subject']
     list_per_page = 5
 
 # Register your models here.

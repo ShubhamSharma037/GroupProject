@@ -30,6 +30,7 @@ urlpatterns = [
     path('blog-single/<str:topic>',views.selecet_blog),
     path('contact/',views.contact),
     path('',include('django.contrib.auth.urls')),
+    path('admin/',views.admin)
 
 
 

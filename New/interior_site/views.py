@@ -4,22 +4,25 @@ from Content.models import HmDesignImg, CstmrFeed, BlogPage, PrjImg
 from Content.forms import ContactForm
 from django.core.mail import send_mail, BadHeaderError
 from django.contrib import messages
-import os
+
 
 
 # Create your views here.
 
 
 def index(request):
-    hm_design_img = HmDesignImg.objects.all()
-    cst_feed = CstmrFeed.objects.all()
-    blogs = BlogPage.objects.all()
-    return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "blogs": blogs})
+    if( request.path == 'index' ):
+        redirect(request,'index.html')
+    else:
+        hm_design_img = HmDesignImg.objects.all()
+        cst_feed = CstmrFeed.objects.all()
+        blogs = BlogPage.objects.all()
+        return render(request,'index.html', {"hm_design_img": hm_design_img, "cst_feed": cst_feed, "blogs": blogs})
 
 
 def about(request):
-    cst_feed = CstmrFeed.objects.all()
-    return render(request, 'about.html', {"cst_feed": cst_feed})
+        cst_feed = CstmrFeed.objects.all()
+        return render(request, 'about.html', {"cst_feed": cst_feed})
 
 
 def project(request):
@@ -71,4 +74,8 @@ def selecet_blog(request, topic):
 
     return render(request, 'blog-single.html', {"blog": blog, "side_blg": side_blg})
 
+
+def admin(request):
+    if request.user.is_authenticated():
+        return redirect(request,'admin_page')
 

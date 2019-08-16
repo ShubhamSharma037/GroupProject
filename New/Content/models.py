@@ -8,7 +8,7 @@ class HmDesignImg(models.Model):
     design_type = models.CharField(max_length = 10, verbose_name="Design Type", choices=(
                                                                  ('interior', 'Interior'),
                                                                  ('exterior', 'Exterior')))
-    design_img_link = models.CharField(max_length=2000,verbose_name="Image Link", blank=False)
+    design_img_link = models.ImageField(max_length=2000,verbose_name="Image Link", blank=False)
 
     class Meta:
         verbose_name = 'Home Page Designs Image'

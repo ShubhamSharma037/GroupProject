@@ -11,13 +11,14 @@
   <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item "><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item active"><a href="about" class="nav-link">About</a></li>
+                <li class="nav-item active"><a href="../about" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="../project" class="nav-link">Project</a></li>
                 <li class="nav-item"><a href="../services" class="nav-link">Services</a></li>
                 
                 <li class="nav-item"><a href="../blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="../contact" class="nav-link">Contact</a></li>
 				{% if request.user.is_authenticated %}
+					<li class="nav-item"><a href="../admin" class="nav-link">Admin</a></li>
 					<li class="nav-item "><a href="../logout" class="nav-link">Logout</a></li>
 				{% else %}
 					<li class="nav-item "><a href="../login" class="nav-link">Login</a></li>
@@ -88,7 +89,7 @@
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="18">0</strong>
+		                <strong class="number" data-number="8">0</strong>
 		                <span>Years of Experienced</span>
 		              </div>
 		            </div>
@@ -96,7 +97,7 @@
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="351">0</strong>
+		                <strong class="number" data-number="50">0</strong>
 		                <span>Happy Clients</span>
 		              </div>
 		            </div>
@@ -104,7 +105,7 @@
 		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18">
 		              <div class="text">
-		                <strong class="number" data-number="564">0</strong>
+		                <strong class="number" data-number="64">0</strong>
 		                <span>Finished Projects</span>
 		              </div>
 		            </div>

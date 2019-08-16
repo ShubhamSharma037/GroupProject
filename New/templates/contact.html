@@ -17,6 +17,7 @@
                 <li class="nav-item"><a href="../blog" class="nav-link">Blog</a></li>
                 <li class="nav-item active"><a href="../contact" class="nav-link">Contact</a></li>
                 {% if request.user.is_authenticated %}
+                    <li class="nav-item"><a href="../admin" class="nav-link">Admin</a></li>
 					<li class="nav-item "><a href="../logout" class="nav-link">Logout</a></li>
 				{% else %}
 					<li class="nav-item "><a href="../login" class="nav-link">Login</a></li>
