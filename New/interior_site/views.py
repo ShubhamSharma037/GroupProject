@@ -11,9 +11,7 @@ from django.contrib import messages
 
 
 def index(request):
-    if( request.path == 'index' ):
-        redirect(request,'index.html')
-    else:
+
         hm_design_img = HmDesignImg.objects.all()
         cst_feed = CstmrFeed.objects.all()
         blogs = BlogPage.objects.all()
@@ -78,4 +76,3 @@ def selecet_blog(request, topic):
 def admin(request):
     if request.user.is_authenticated():
         return redirect(request,'admin_page')
-

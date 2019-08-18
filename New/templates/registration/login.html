@@ -27,7 +27,7 @@
         </div>
 </nav>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url({% static 'images/bg_1.jpg' %});" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({% static 'images/bg_1.jpg' %});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -42,15 +42,22 @@
 
 <section class="ftco-section">
 <div class = "container">
+<div class="text text-warning text-center">
+    <p>Note: This login is only for admin.</p>
+</div>
     <form style=" width:300px; margin:auto;" method="POST" >
+        <div class="border  rounded bg-light" >
     <div class="col-6 text-dark text-left font-weight-bold" >
+        <div class="form-group">
             {% csrf_token %}
             {{ form }}
         <p></p>
             <button type="Submit" class="btn btn-success" style="width:100px">Login</button>
     </div>
+        </div>
+        </div>
     </form>
-</div>
+    </div>
 <div class="conatiner">
     <p>&nbsp;&nbsp;</p>
 </div>

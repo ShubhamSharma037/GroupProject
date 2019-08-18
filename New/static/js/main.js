@@ -1,4 +1,3 @@
-
  AOS.init({
  	duration: 800,
  	easing: 'slide'
@@ -30,7 +29,7 @@
 
 	// loader
 	var loader = function() {
-		setTimeout(function() {
+		setTimeout(function() { 
 			if($('#ftco-loader').length > 0) {
 				$('#ftco-loader').removeClass('show');
 			}
@@ -162,26 +161,23 @@
 			var $w = $(this),
 					st = $w.scrollTop(),
 					navbar = $('.ftco_navbar'),
-					sd = $('.js-scroll-wrap'),
-					wid = $(window).width();
+					sd = $('.js-scroll-wrap');
 
 			if (st > 150) {
 				if ( !navbar.hasClass('scrolled') ) {
-					navbar.addClass('scrolled');
-
+					navbar.addClass('scrolled');	
 				}
-			}
+			} 
 			if (st < 150) {
 				if ( navbar.hasClass('scrolled') ) {
 					navbar.removeClass('scrolled sleep');
 				}
-			}
+			} 
 			if ( st > 350 ) {
 				if ( !navbar.hasClass('awake') ) {
-					navbar.addClass('awake');
-
+					navbar.addClass('awake');	
 				}
-
+				
 				if(sd.length > 0) {
 					sd.addClass('sleep');
 				}
@@ -190,46 +186,18 @@
 				if ( navbar.hasClass('awake') ) {
 					navbar.removeClass('awake');
 					navbar.addClass('sleep');
-
 				}
 				if(sd.length > 0) {
 					sd.removeClass('sleep');
 				}
 			}
-			if ( !navbar.hasClass('scrolled') )
-			{
-				console.log(wid)
-				if( wid < 992)
-				{
-<<<<<<< HEAD
-					document.getElementById("img").src = 'static/images/logo2.png';
-
-				}
-				else
-				{
-					document.getElementById("img").src = 'static/images/logo.png' ;
-=======
-					document.getElementById("img").src = '/static/images/logo2.png';
-				}
-				else
-				{
-					document.getElementById("img").src = '/static/images/logo.png';
->>>>>>> ba014d32e2a815671b550ef9e9e9c30b40a188f4
-				}
-
-			}
-			if ( navbar.hasClass('scrolled') )
-			{
-					document.getElementById("img").src = '/static/images/logo.png';
-
-			}
 		});
 	};
 	scrollWindow();
 
-
+	
 	var counter = function() {
-
+		
 		$('#section-counter').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
@@ -246,7 +214,7 @@
 					  }, 7000
 					);
 				});
-
+				
 			}
 
 		} , { offset: '95%' } );
@@ -259,7 +227,7 @@
 		$('.ftco-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-
+				
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -279,11 +247,11 @@
 								el.addClass('fadeInUp ftco-animated');
 							}
 							el.removeClass('item-animate');
-						},  k * 5500, 'easeInOutExpo' );
+						},  k * 50, 'easeInOutExpo' );
 					});
-
-				}, 500);
-
+					
+				}, 100);
+				
 			}
 
 		} , { offset: '95%' } );
