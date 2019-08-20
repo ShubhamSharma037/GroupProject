@@ -5,8 +5,6 @@ from .models import HmDesignImg, CstmrFeed, ContactFormModel, BlogPage, PrjImg
 
 
 
-
-
 class HmDesignImgAdmin(admin.ModelAdmin):
     list_display = ('design_name', 'design_type', 'design_img_link')
     list_editable = ['design_type']
@@ -50,12 +48,17 @@ class ContactFormModelAdmin(admin.ModelAdmin):
     search_fields = ['vw_name' 'vw_email', 'vw_subject']
     list_per_page = 5
 
+
+
+
 # Register your models here.
 admin.site.register(HmDesignImg, HmDesignImgAdmin)
 admin.site.register(PrjImg, PrjDesignImgAdmin)
 admin.site.register(CstmrFeed, CstmrFeedAdmin)
 admin.site.register(BlogPage, BlogPageAdmin)
 admin.site.register(ContactFormModel, ContactFormModelAdmin)
+
+
 
 #admin title changes
 admin.site.site_header = "Welcome to DpdzineS"

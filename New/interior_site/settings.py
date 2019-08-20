@@ -142,6 +142,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_PORT = '587'
 # EMAIL_HOST_USER = 'Mailgun Smtp Host Username'
 # EMAIL_HOST_PASSWORD = 'Mailgun Smtp Host User Pass'
+#EMAIL_USE_TLS = True
 
 #for media files
 MEDIA_ROOT= os.path.join(BASE_DIR, 'media')
@@ -152,6 +153,3 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 LOGIN_REDIRECT_URL = '/admin'
 LOGOUT_REDIRECT_URL='/'
-
-#crispy form
-CRISPY_TEMPLATE_PACK = 'bootstrap4'

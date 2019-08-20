@@ -38,6 +38,7 @@ def blog(request):
 
 
 def contact(request):
+
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
@@ -76,3 +77,5 @@ def selecet_blog(request, topic):
 def admin(request):
     if request.user.is_authenticated():
         return redirect(request,'admin_page')
+
+
