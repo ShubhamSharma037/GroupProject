@@ -7,7 +7,7 @@ from .models import HmDesignImg, CstmrFeed, ContactFormModel, BlogPage, PrjImg
 
 class HmDesignImgAdmin(admin.ModelAdmin):
     list_display = ('design_name', 'design_type', 'design_img_link')
-    list_editable = ['design_type']
+    list_editable = ['design_type','design_img_link']
     search_fields = ['design_name', 'design_name']
     list_filter = ['design_type']
     list_per_page = 10
